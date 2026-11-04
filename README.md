@@ -2,7 +2,7 @@
 
 > **Proyecto académico de tercer ciclo** de la carrera de Desarrollo de Software en SENATI. Desarrollado para el curso Fundamentos de Programación Web.
 
-## 📥 Informe completo del proyecto
+##  Informe completo del proyecto
 
 El informe documenta el caso práctico, la propuesta, el desarrollo de la tienda y las evidencias del proceso.
 
