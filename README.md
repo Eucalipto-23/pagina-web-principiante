@@ -1,16 +1,18 @@
 # TechMarket Online
 
-> **Proyecto académico de tercer ciclo** de la carrera de Desarrollo de Software en SENATI. Desarrollado para el curso Fundamentos de Programación Web.
+> **Proyecto académico de tercer ciclo** de la carrera de Desarrollo de Software en SENATI, desarrollado para el curso Fundamentos de Programación Web.
+
+ **Código fuente de la aplicación:** [Abrir la carpeta `proyecto_tec/`](proyecto_tec/)
 
 ##  Informe completo del proyecto
 
-El informe documenta el caso práctico, la propuesta, el desarrollo de la tienda y las evidencias del proceso.
+El informe detalla el caso práctico, la propuesta, el desarrollo de la tienda y las evidencias del proceso.
 
 **[ DESCARGAR EL INFORME COMPLETO DEL PROYECTO (WORD)](https://raw.githubusercontent.com/Eucalipto-23/pagina-web-principiante/main/Trabajofinal_fundamentosweb.docx)**
 
 ## Descripción
 
-TechMarket Online es una tienda web de demostración desarrollada como proyecto de tercer ciclo. Permite administrar productos y registrar compras mediante PHP y MySQL.
+TechMarket Online es una tienda web de demostración desarrollada como proyecto académico de tercer ciclo. Permite administrar productos y registrar compras mediante PHP y MySQL.
 
 ## Funcionalidades
 
@@ -26,6 +28,18 @@ TechMarket Online es una tienda web de demostración desarrollada como proyecto 
 
 PHP, MySQL, PDO, JavaScript, AJAX, HTML, CSS y XAMPP. La aplicación aplica programación orientada a objetos y una estructura básica MVC.
 
+##  Código fuente
+
+Todo el código de la aplicación está dentro de [`proyecto_tec/`](proyecto_tec/):
+
+- [`models/`](proyecto_tec/models/): acceso a productos, clientes y compras.
+- [`controllers/`](proyecto_tec/controllers/): lógica que conecta los modelos con la aplicación.
+- [`ajax/`](proyecto_tec/ajax/): operaciones entre la interfaz y el servidor.
+- [`productos/`](proyecto_tec/productos/): catálogo, administración, carrito y compra.
+- [`config/`](proyecto_tec/config/): conexión con la base de datos.
+- [`public/`](proyecto_tec/public/): estilos e imágenes públicas.
+- `index.php`: página principal de la tienda.
+
 ## Requisitos
 
 - XAMPP con Apache y MySQL.
@@ -40,7 +54,7 @@ PHP, MySQL, PDO, JavaScript, AJAX, HTML, CSS y XAMPP. La aplicación aplica prog
 4. Revisa la conexión en `proyecto_tec/config/database.php`.
 5. Abre `http://localhost/pagina-web-principiante/proyecto_tec/`.
 
-> El repositorio todavía no incluye un archivo SQL para crear las tablas. Para que otra persona pueda instalar el proyecto fácilmente, agrega una exportación del esquema, por ejemplo `proyecto_tec/database/tienda.sql`, y enlázala aquí.
+> El repositorio todavía no incluye un archivo SQL para crear las tablas. Para facilitar la instalación, agrega una exportación del esquema, por ejemplo `proyecto_tec/database/tienda.sql`, y enlázala aquí.
 
 ## Prueba rápida
 
@@ -49,11 +63,6 @@ PHP, MySQL, PDO, JavaScript, AJAX, HTML, CSS y XAMPP. La aplicación aplica prog
 3. Completa el formulario de compra con datos de prueba.
 4. Comprueba que se registre la compra y se actualice el stock.
 
-## Estructura del proyecto
+## Informe
 
-- `proyecto_tec/`: aplicación web.
-- `proyecto_tec/models/`: acceso a productos, clientes y compras.
-- `proyecto_tec/controllers/`: lógica que conecta modelos y aplicación.
-- `proyecto_tec/ajax/`: operaciones entre la interfaz y el servidor.
-- `proyecto_tec/productos/`: catálogo, administración, carrito y compra.
-- `Trabajofinal_fundamentosweb.docx`: informe detallado del proyecto.
+El archivo `Trabajofinal_fundamentosweb.docx` contiene el informe detallado del proyecto y sus evidencias.
